@@ -11,3 +11,7 @@ def test_sum_negative():
 
 def test_sum_zero():
     assert sum(0, 5) == 5
+
+
+def test_sum_float():
+    assert sum(1.5, 2.5) == 4.0
